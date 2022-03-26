@@ -1,0 +1,277 @@
+﻿1>------ Derleme başladı: Proje: ALANSIS_PANEL, Yapılandırma: Debug Any CPU ------
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,26): warning BC42024: Kullanılmayan yerel değişken: 'kalintix'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,36): warning BC42024: Kullanılmayan yerel değişken: 'etiket'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,44): warning BC42024: Kullanılmayan yerel değişken: 'etiketm'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,53): warning BC42024: Kullanılmayan yerel değişken: 'stok_kod'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,63): warning BC42024: Kullanılmayan yerel değişken: 'partino'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,72): warning BC42024: Kullanılmayan yerel değişken: 'tip'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,77): warning BC42024: Kullanılmayan yerel değişken: 'oda'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,82): warning BC42024: Kullanılmayan yerel değişken: 'miktar'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,90): warning BC42024: Kullanılmayan yerel değişken: 'dara'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,96): warning BC42024: Kullanılmayan yerel değişken: 'brut'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,124): warning BC42024: Kullanılmayan yerel değişken: 'kalinti'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,133): warning BC42024: Kullanılmayan yerel değişken: 'bolge'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,140): warning BC42024: Kullanılmayan yerel değişken: 'islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,147): warning BC42024: Kullanılmayan yerel değişken: 'nar_islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(57,158): warning BC42024: Kullanılmayan yerel değişken: 'viyol'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,26): warning BC42024: Kullanılmayan yerel değişken: 'kalintix'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,36): warning BC42024: Kullanılmayan yerel değişken: 'etiket'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,44): warning BC42024: Kullanılmayan yerel değişken: 'etiketm'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,53): warning BC42024: Kullanılmayan yerel değişken: 'stok_kod'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,63): warning BC42024: Kullanılmayan yerel değişken: 'partino'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,72): warning BC42024: Kullanılmayan yerel değişken: 'tip'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,77): warning BC42024: Kullanılmayan yerel değişken: 'oda'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,82): warning BC42024: Kullanılmayan yerel değişken: 'miktar'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,90): warning BC42024: Kullanılmayan yerel değişken: 'dara'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,96): warning BC42024: Kullanılmayan yerel değişken: 'brut'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,124): warning BC42024: Kullanılmayan yerel değişken: 'kalinti'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,133): warning BC42024: Kullanılmayan yerel değişken: 'bolge'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,140): warning BC42024: Kullanılmayan yerel değişken: 'islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,147): warning BC42024: Kullanılmayan yerel değişken: 'nar_islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(57,158): warning BC42024: Kullanılmayan yerel değişken: 'viyol'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(191,16): warning BC42104: 'kalintix' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(212,16): warning BC42104: 'tip' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(227,38): warning BC42104: 'etiket' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(238,43): warning BC42104: 'miktar' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(239,44): warning BC42104: 'dara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(240,44): warning BC42104: 'brut' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(242,45): warning BC42104: 'nar_islem' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(244,47): warning BC42104: 'kalinti' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(314,24): warning BC42104: 'etiketm' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(321,48): warning BC42104: 'stok_kod' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(322,47): warning BC42104: 'partino' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(149,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(149,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(149,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(150,13): warning BC42024: Kullanılmayan yerel değişken: 'sBuf'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(151,13): warning BC42024: Kullanılmayan yerel değişken: 'sTemp'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(152,13): warning BC42024: Kullanılmayan yerel değişken: 'iFileNum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(153,13): warning BC42024: Kullanılmayan yerel değişken: 'sFileName'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(154,13): warning BC42024: Kullanılmayan yerel değişken: 'soru'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form20.vb(154,19): warning BC42024: Kullanılmayan yerel değişken: 'indeks'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(197,16): warning BC42104: 'kalintix' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(218,16): warning BC42104: 'tip' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(233,38): warning BC42104: 'etiket' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(244,43): warning BC42104: 'miktar' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(245,44): warning BC42104: 'dara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(246,44): warning BC42104: 'brut' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(248,45): warning BC42104: 'nar_islem' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(250,47): warning BC42104: 'kalinti' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(320,28): warning BC42104: 'etiketm' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(327,52): warning BC42104: 'stok_kod' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(328,51): warning BC42104: 'partino' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(155,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(155,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(155,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(156,13): warning BC42024: Kullanılmayan yerel değişken: 'sBuf'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(157,13): warning BC42024: Kullanılmayan yerel değişken: 'sTemp'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(158,13): warning BC42024: Kullanılmayan yerel değişken: 'iFileNum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(159,13): warning BC42024: Kullanılmayan yerel değişken: 'sFileName'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(160,13): warning BC42024: Kullanılmayan yerel değişken: 'soru'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form8.vb(160,19): warning BC42024: Kullanılmayan yerel değişken: 'indeks'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,26): warning BC42024: Kullanılmayan yerel değişken: 'kalintix'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,36): warning BC42024: Kullanılmayan yerel değişken: 'etiket'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,44): warning BC42024: Kullanılmayan yerel değişken: 'etiketm'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,53): warning BC42024: Kullanılmayan yerel değişken: 'stok_kod'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,63): warning BC42024: Kullanılmayan yerel değişken: 'partino'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,72): warning BC42024: Kullanılmayan yerel değişken: 'tip'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,77): warning BC42024: Kullanılmayan yerel değişken: 'oda'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,82): warning BC42024: Kullanılmayan yerel değişken: 'miktar'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,90): warning BC42024: Kullanılmayan yerel değişken: 'dara'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,96): warning BC42024: Kullanılmayan yerel değişken: 'brut'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,124): warning BC42024: Kullanılmayan yerel değişken: 'kalinti'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,133): warning BC42024: Kullanılmayan yerel değişken: 'bolge'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,140): warning BC42024: Kullanılmayan yerel değişken: 'islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,147): warning BC42024: Kullanılmayan yerel değişken: 'nar_islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(57,158): warning BC42024: Kullanılmayan yerel değişken: 'viyol'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(187,16): warning BC42104: 'kalintix' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(208,16): warning BC42104: 'tip' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(223,38): warning BC42104: 'etiket' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(234,43): warning BC42104: 'miktar' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(235,44): warning BC42104: 'dara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(236,44): warning BC42104: 'brut' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(238,45): warning BC42104: 'nar_islem' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(240,47): warning BC42104: 'kalinti' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(310,24): warning BC42104: 'etiketm' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(317,48): warning BC42104: 'stok_kod' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(318,47): warning BC42104: 'partino' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(145,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(145,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(145,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(146,13): warning BC42024: Kullanılmayan yerel değişken: 'sBuf'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(147,13): warning BC42024: Kullanılmayan yerel değişken: 'sTemp'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(148,13): warning BC42024: Kullanılmayan yerel değişken: 'iFileNum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(149,13): warning BC42024: Kullanılmayan yerel değişken: 'sFileName'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(150,13): warning BC42024: Kullanılmayan yerel değişken: 'soru'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form30.vb(150,19): warning BC42024: Kullanılmayan yerel değişken: 'indeks'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,26): warning BC42024: Kullanılmayan yerel değişken: 'kalintix'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,36): warning BC42024: Kullanılmayan yerel değişken: 'etiket'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,44): warning BC42024: Kullanılmayan yerel değişken: 'etiketm'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,53): warning BC42024: Kullanılmayan yerel değişken: 'stok_kod'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,63): warning BC42024: Kullanılmayan yerel değişken: 'partino'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,72): warning BC42024: Kullanılmayan yerel değişken: 'tip'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,77): warning BC42024: Kullanılmayan yerel değişken: 'oda'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,82): warning BC42024: Kullanılmayan yerel değişken: 'miktar'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,90): warning BC42024: Kullanılmayan yerel değişken: 'dara'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,96): warning BC42024: Kullanılmayan yerel değişken: 'brut'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,124): warning BC42024: Kullanılmayan yerel değişken: 'kalinti'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,133): warning BC42024: Kullanılmayan yerel değişken: 'bolge'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,140): warning BC42024: Kullanılmayan yerel değişken: 'islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,147): warning BC42024: Kullanılmayan yerel değişken: 'KIVI_islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(91,159): warning BC42024: Kullanılmayan yerel değişken: 'viyol'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(266,16): warning BC42104: 'kalintix' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(287,16): warning BC42104: 'tip' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(302,38): warning BC42104: 'etiket' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(313,43): warning BC42104: 'miktar' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(314,44): warning BC42104: 'dara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(315,44): warning BC42104: 'brut' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(317,45): warning BC42104: 'KIVI_islem' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(319,47): warning BC42104: 'kalinti' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(389,24): warning BC42104: 'etiketm' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(396,48): warning BC42104: 'stok_kod' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(397,47): warning BC42104: 'partino' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(225,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(225,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(225,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(225,159): warning BC42024: Kullanılmayan yerel değişken: 'viyol'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(226,13): warning BC42024: Kullanılmayan yerel değişken: 'sBuf'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(227,13): warning BC42024: Kullanılmayan yerel değişken: 'sTemp'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(228,13): warning BC42024: Kullanılmayan yerel değişken: 'iFileNum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(229,13): warning BC42024: Kullanılmayan yerel değişken: 'sFileName'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(230,13): warning BC42024: Kullanılmayan yerel değişken: 'soru'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form35.vb(230,19): warning BC42024: Kullanılmayan yerel değişken: 'indeks'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,26): warning BC42024: Kullanılmayan yerel değişken: 'kalintix'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,36): warning BC42024: Kullanılmayan yerel değişken: 'etiket'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,44): warning BC42024: Kullanılmayan yerel değişken: 'etiketm'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,53): warning BC42024: Kullanılmayan yerel değişken: 'stok_kod'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,63): warning BC42024: Kullanılmayan yerel değişken: 'partino'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,72): warning BC42024: Kullanılmayan yerel değişken: 'tip'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,77): warning BC42024: Kullanılmayan yerel değişken: 'oda'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,82): warning BC42024: Kullanılmayan yerel değişken: 'miktar'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,90): warning BC42024: Kullanılmayan yerel değişken: 'dara'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,96): warning BC42024: Kullanılmayan yerel değişken: 'brut'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,124): warning BC42024: Kullanılmayan yerel değişken: 'kalinti'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,133): warning BC42024: Kullanılmayan yerel değişken: 'bolge'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,140): warning BC42024: Kullanılmayan yerel değişken: 'islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,147): warning BC42024: Kullanılmayan yerel değişken: 'nar_islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(54,158): warning BC42024: Kullanılmayan yerel değişken: 'viyol'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(208,16): warning BC42104: 'kalintix' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(229,16): warning BC42104: 'tip' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(244,38): warning BC42104: 'etiket' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(255,43): warning BC42104: 'miktar' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(256,44): warning BC42104: 'dara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(257,44): warning BC42104: 'brut' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(259,45): warning BC42104: 'nar_islem' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(261,47): warning BC42104: 'kalinti' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(331,24): warning BC42104: 'etiketm' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(338,48): warning BC42104: 'stok_kod' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(339,47): warning BC42104: 'partino' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(166,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(166,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(166,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(167,13): warning BC42024: Kullanılmayan yerel değişken: 'sBuf'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(168,13): warning BC42024: Kullanılmayan yerel değişken: 'sTemp'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(169,13): warning BC42024: Kullanılmayan yerel değişken: 'iFileNum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(170,13): warning BC42024: Kullanılmayan yerel değişken: 'sFileName'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(171,13): warning BC42024: Kullanılmayan yerel değişken: 'soru'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form52.vb(171,19): warning BC42024: Kullanılmayan yerel değişken: 'indeks'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,26): warning BC42024: Kullanılmayan yerel değişken: 'kalintix'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,36): warning BC42024: Kullanılmayan yerel değişken: 'etiket'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,44): warning BC42024: Kullanılmayan yerel değişken: 'etiketm'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,53): warning BC42024: Kullanılmayan yerel değişken: 'stok_kod'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,63): warning BC42024: Kullanılmayan yerel değişken: 'partino'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,72): warning BC42024: Kullanılmayan yerel değişken: 'tip'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,77): warning BC42024: Kullanılmayan yerel değişken: 'oda'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,82): warning BC42024: Kullanılmayan yerel değişken: 'miktar'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,90): warning BC42024: Kullanılmayan yerel değişken: 'dara'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,96): warning BC42024: Kullanılmayan yerel değişken: 'brut'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,124): warning BC42024: Kullanılmayan yerel değişken: 'kalinti'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,133): warning BC42024: Kullanılmayan yerel değişken: 'bolge'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,140): warning BC42024: Kullanılmayan yerel değişken: 'islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,147): warning BC42024: Kullanılmayan yerel değişken: 'nar_islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(54,158): warning BC42024: Kullanılmayan yerel değişken: 'viyol'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,26): warning BC42024: Kullanılmayan yerel değişken: 'kalintix'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,36): warning BC42024: Kullanılmayan yerel değişken: 'etiket'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,44): warning BC42024: Kullanılmayan yerel değişken: 'etiketm'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,53): warning BC42024: Kullanılmayan yerel değişken: 'stok_kod'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,63): warning BC42024: Kullanılmayan yerel değişken: 'partino'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,72): warning BC42024: Kullanılmayan yerel değişken: 'tip'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,77): warning BC42024: Kullanılmayan yerel değişken: 'oda'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,82): warning BC42024: Kullanılmayan yerel değişken: 'miktar'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,90): warning BC42024: Kullanılmayan yerel değişken: 'dara'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,96): warning BC42024: Kullanılmayan yerel değişken: 'brut'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,124): warning BC42024: Kullanılmayan yerel değişken: 'kalinti'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,133): warning BC42024: Kullanılmayan yerel değişken: 'bolge'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,140): warning BC42024: Kullanılmayan yerel değişken: 'islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,147): warning BC42024: Kullanılmayan yerel değişken: 'nar_islem'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(54,158): warning BC42024: Kullanılmayan yerel değişken: 'viyol'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(208,16): warning BC42104: 'kalintix' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(229,16): warning BC42104: 'tip' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(244,38): warning BC42104: 'etiket' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(255,43): warning BC42104: 'miktar' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(256,44): warning BC42104: 'dara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(257,44): warning BC42104: 'brut' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(259,45): warning BC42104: 'nar_islem' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(261,47): warning BC42104: 'kalinti' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(331,24): warning BC42104: 'etiketm' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(338,48): warning BC42104: 'stok_kod' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(339,47): warning BC42104: 'partino' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(166,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(166,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(166,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(167,13): warning BC42024: Kullanılmayan yerel değişken: 'sBuf'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(168,13): warning BC42024: Kullanılmayan yerel değişken: 'sTemp'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(169,13): warning BC42024: Kullanılmayan yerel değişken: 'iFileNum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(170,13): warning BC42024: Kullanılmayan yerel değişken: 'sFileName'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(171,13): warning BC42024: Kullanılmayan yerel değişken: 'soru'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form51.vb(171,19): warning BC42024: Kullanılmayan yerel değişken: 'indeks'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form45.vb(19,13): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form45.vb(19,22): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form45.vb(20,13): warning BC42024: Kullanılmayan yerel değişken: 'net'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form45.vb(21,13): warning BC42024: Kullanılmayan yerel değişken: 'sBuf'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form45.vb(22,13): warning BC42024: Kullanılmayan yerel değişken: 'sTemp'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form45.vb(23,13): warning BC42024: Kullanılmayan yerel değişken: 'iFileNum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form45.vb(24,13): warning BC42024: Kullanılmayan yerel değişken: 'sFileName'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(208,16): warning BC42104: 'kalintix' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(229,16): warning BC42104: 'tip' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(244,38): warning BC42104: 'etiket' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(255,43): warning BC42104: 'miktar' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(256,44): warning BC42104: 'dara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(257,44): warning BC42104: 'brut' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(259,45): warning BC42104: 'nar_islem' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(261,47): warning BC42104: 'kalinti' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(331,24): warning BC42104: 'etiketm' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(338,48): warning BC42104: 'stok_kod' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(339,47): warning BC42104: 'partino' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(166,102): warning BC42024: Kullanılmayan yerel değişken: 'serinum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(166,111): warning BC42024: Kullanılmayan yerel değişken: 'durum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(166,118): warning BC42024: Kullanılmayan yerel değişken: 'seri'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(167,13): warning BC42024: Kullanılmayan yerel değişken: 'sBuf'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(168,13): warning BC42024: Kullanılmayan yerel değişken: 'sTemp'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(169,13): warning BC42024: Kullanılmayan yerel değişken: 'iFileNum'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(170,13): warning BC42024: Kullanılmayan yerel değişken: 'sFileName'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(171,13): warning BC42024: Kullanılmayan yerel değişken: 'soru'.
+1>C:\data\ALANSIS_PANEL\ALANSIS_PANEL\Form43.vb(171,19): warning BC42024: Kullanılmayan yerel değişken: 'indeks'.
+1>  ALANSIS_PANEL -> C:\data\ALANSIS_PANEL\ALANSIS_PANEL\bin\Debug\ALANSIS_PANEL.exe
+========== Oluşturma: 1 başarılı, 0 başarısız, 0 güncel, 0 atlandı ==========
