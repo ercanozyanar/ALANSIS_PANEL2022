@@ -57,16 +57,17 @@ Public Class Form29
         reader20.Close()
         SqlConn.Close()
         '================================================================================================================================
-        SqlConn.Open()
-        Dim mySelectQuery1 As String = "SELECT* FROM EO_ALANSIS_KIRAZISLEM;"
-        Dim SqlComm1 As New System.Data.SqlClient.SqlCommand(mySelectQuery1, SqlConn)
-        Dim reader1 As System.Data.SqlClient.SqlDataReader
-        reader1 = SqlComm1.ExecuteReader()
-        While reader1.Read()
-            ComboBox3.Items.Add(reader1("ISLEM"))
-        End While
-        reader1.Close()
-        SqlConn.Close()
+        'SqlConn.Open()
+        'Dim mySelectQuery1 As String = "SELECT* FROM EO_ALANSIS_KIRAZISLEM;"
+        'Dim SqlComm1 As New System.Data.SqlClient.SqlCommand(mySelectQuery1, SqlConn)
+        'Dim reader1 As System.Data.SqlClient.SqlDataReader
+        'reader1 = SqlComm1.ExecuteReader()
+        'While reader1.Read()
+        ' ComboBox3.Items.Add(reader1("ISLEM"))
+        ' End While
+        ' reader1.Close()
+        ' SqlConn.Close()
+        '================================================================================================================================
         SqlConn.Open()
         Dim mySelectQuery2 As String = "SELECT* FROM EO_ALANSIS_KIRAZBOLGE;"
         Dim SqlComm2 As New System.Data.SqlClient.SqlCommand(mySelectQuery2, SqlConn)
@@ -144,7 +145,7 @@ Public Class Form29
         Dim sFileName As String
         Dim barkod
         barkod = ""
-        If ComboBox1.Text = "" Or ComboBox3.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
+        If ComboBox1.Text = "" Or TextBox13.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
             MsgBox("BOLGE veya ODA veya KALINTI veya ISLEM veya DIGER SAHALAR girmelisiniz...")
             Exit Sub
         Else
@@ -161,7 +162,7 @@ Public Class Form29
                         conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                         conn1.Open()
                         cmd1.Connection = conn1
-                        cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','10','HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                        cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','10','HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                         cmd1.ExecuteNonQuery()
                         conn1.Close()
                         '---------------------------------------------------------------------------------------------------
@@ -251,7 +252,7 @@ Public Class Form29
                             conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                             conn1.Open()
                             cmd1.Connection = conn1
-                            cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','10','MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                            cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','10','MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                             cmd1.ExecuteNonQuery()
                             conn1.Close()
                             '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -404,7 +405,7 @@ Public Class Form29
         brut = 0
         net = 0
         barkod = ""
-        If ComboBox1.Text = "" Or ComboBox3.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
+        If ComboBox1.Text = "" Or TextBox13.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
             MsgBox("BOLGE veya ODA veya KALINTI veya ISLEM veya DIGER SAHALAR girmelisiniz...")
             Exit Sub
         Else
@@ -420,7 +421,7 @@ Public Class Form29
                 conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                 conn1.Open()
                 cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','20','YARIMAMUL_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','20','YARIMAMUL_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
                 '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -511,7 +512,7 @@ Public Class Form29
                 conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                 conn1.Open()
                 cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','20','YARIMAMUL_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','20','YARIMAMUL_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
                 '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -617,7 +618,7 @@ Public Class Form29
         Dim sFileName As String
         Dim barkod
         barkod = ""
-        If ComboBox1.Text = "" Or ComboBox3.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
+        If ComboBox1.Text = "" Or TextBox13.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
             MsgBox("BOLGE veya ODA veya KALINTI veya ISLEM veya DIGER SAHALAR girmelisiniz...")
             Exit Sub
         Else
@@ -633,7 +634,7 @@ Public Class Form29
                 conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                 conn1.Open()
                 cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','40','2KALITE_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','40','2KALITE_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
                 '---------------------------------------------------------------------------------------------------
@@ -723,7 +724,7 @@ Public Class Form29
                 conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                 conn1.Open()
                 cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','40','2KALITE_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','40','2KALITE_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
                 '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -829,7 +830,7 @@ Public Class Form29
         Dim sFileName As String
         Dim barkod
         barkod = ""
-        If ComboBox1.Text = "" Or ComboBox3.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
+        If ComboBox1.Text = "" Or TextBox13.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
             MsgBox("BOLGE veya ODA veya KALINTI veya ISLEM veya DIGER SAHALAR girmelisiniz...")
             Exit Sub
         Else
@@ -845,7 +846,7 @@ Public Class Form29
                 conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                 conn1.Open()
                 cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','50','COP_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','50','COP_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
                 '---------------------------------------------------------------------------------------------------
@@ -935,7 +936,7 @@ Public Class Form29
                 conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                 conn1.Open()
                 cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','50','COP_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','50','COP_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
                 '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1049,7 +1050,7 @@ Public Class Form29
         Dim barkod
 
         barkod = ""
-        If ComboBox1.Text = "" Or ComboBox3.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
+        If ComboBox1.Text = "" Or TextBox13.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
             MsgBox("BOLGE veya ODA veya KALINTI veya ISLEM veya DIGER SAHALAR girmelisiniz...")
             Exit Sub
         Else
@@ -1064,7 +1065,7 @@ Public Class Form29
                 conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                 conn1.Open()
                 cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','12','STOK_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','12','STOK_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
                 '---------------------------------------------------------------------------------------------------
@@ -1153,7 +1154,7 @@ Public Class Form29
                     conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                     conn1.Open()
                     cmd1.Connection = conn1
-                    cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','12','STOK_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                    cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','12','STOK_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
 
                     cmd1.ExecuteNonQuery()
                     conn1.Close()
@@ -1283,7 +1284,7 @@ Public Class Form29
         Dim barkod
 
         barkod = ""
-        If ComboBox1.Text = "" Or ComboBox3.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
+        If ComboBox1.Text = "" Or TextBox13.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
             MsgBox("BOLGE veya ODA veya KALINTI veya ISLEM veya DIGER SAHALAR girmelisiniz...")
             Exit Sub
         Else
@@ -1299,7 +1300,7 @@ Public Class Form29
                 conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                 conn1.Open()
                 cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','60','YARIM_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','60','YARIM_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
                 '---------------------------------------------------------------------------------------------------
@@ -1389,7 +1390,7 @@ Public Class Form29
                     conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
                     conn1.Open()
                     cmd1.Connection = conn1
-                    cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','60','YARIM_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
+                    cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & TextBox13.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','60','YARIM_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
 
                     cmd1.ExecuteNonQuery()
                     conn1.Close()
@@ -1540,7 +1541,7 @@ Public Class Form29
         TextBox3.Text = ""
         TextBox4.Text = ""
         ComboBox2.Text = ""
-        ComboBox3.Text = ""
+        TextBox13.Text = ""
         ComboBox4.Text = ""
         ComboBox7.Text = ""
         ComboBox8.Text = ""
@@ -1560,216 +1561,6 @@ Public Class Form29
     Private Sub GroupBox3_Enter(sender As Object, e As EventArgs) Handles GroupBox3.Enter
 
     End Sub
-
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        On Error Resume Next
-        Dim conn1, conn2, conn3 As New SqlConnection
-        Dim cmd1, cmd2, cmd3, cmd4, cmd5, cmd6, cmd7, cmd8, cmd9, cmd10 As New SqlCommand
-        Dim serinum, seri
-        Dim net, kopya As Integer
-        Dim sBuf As String
-        Dim sTemp As String
-        Dim iFileNum As Integer
-        Dim sFileName As String
-        Dim barkod
-
-        barkod = ""
-        If ComboBox1.Text = "" Or ComboBox3.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
-            MsgBox("BOLGE veya ODA veya KALINTI veya ISLEM veya DIGER SAHALAR girmelisiniz...")
-            Exit Sub
-        Else
-            serinum = ""
-            seri = ""
-            '===============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-            If TextBox1.Text = "" Then
-                serinum = "2800016" & Format(DateTime.Today, "ddmmyy") & TextBox5.Text & TextBox4.Text
-                seri = Format(DateTime.Today, "ddmmyy") & TextBox5.Text & TextBox4.Text
-                net = CInt(TextBox4.Text) - CInt(TextBox6.Text)
-                '---------------------------------------------------------------------------------------------------------------
-                conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
-                conn1.Open()
-                cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_DEPO (TARIH, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,CESIT,URETIM_TIPI,USR,ACIKLAMA,RENK) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','70','SULUK_HAMMADDE','" & ComboBox11.Text & "','" & ComboBox12.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
-                cmd1.ExecuteNonQuery()
-                conn1.Close()
-                '---------------------------------------------------------------------------------------------------
-                SqlConn.Open()
-                Dim mySelectQuery1 As String = "SELECT COUNT(ID) AS SAYI FROM EO_ALANSIS_KIRAZ_DEPO;"
-                Dim SqlComm1 As New System.Data.SqlClient.SqlCommand(mySelectQuery1, SqlConn)
-                Dim reader1 As System.Data.SqlClient.SqlDataReader
-                reader1 = SqlComm1.ExecuteReader()
-                While reader1.Read()
-                    Label10.Text = reader1("SAYI").ToString()
-                End While
-                reader1.Close()
-                SqlConn.Close()
-                '============================================================================================================================================================================================================================================================================================
-                conn3.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
-                SqlConn.Open()
-                Dim mySelectQuery21 As String = "SELECT STOK_ADI,MIKTAR FROM EO_ALANSIS_RECETE WHERE RECETE_INDEKS='" & TextBox12.Text & "'"
-                Dim SqlComm21 As New System.Data.SqlClient.SqlCommand(mySelectQuery21, SqlConn)
-                Dim reader21 As System.Data.SqlClient.SqlDataReader
-                reader21 = SqlComm21.ExecuteReader()
-                While reader21.Read()
-                    Dim stok_adi As String
-                    Dim miktar As Decimal
-                    stok_adi = ""
-                    miktar = 0
-                    '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                    stok_adi = reader21("STOK_ADI").ToString()
-                    miktar = reader21("MIKTAR").ToString()
-                    conn3.Open()
-                    cmd1.Connection = conn3
-                    cmd1.CommandText = "INSERT INTO EO_ALANSIS_RECETETUKETIM (TARIH,PARTI,RECETE,STOK_KODU,STOK_ADI,MIKTAR) VALUES ('" & DateTime.Now & "','" & ComboBox18.Text & "', '" & TextBox12.Text & "','" & stok_adi & "', '" & stok_adi & "', '" & Replace(miktar, ",", ".") & "')"
-                    cmd1.ExecuteNonQuery()
-                    conn3.Close()
-                End While
-                SqlConn.Close()
-                '============================================================================================================================================================================================================================================================================================
-
-                Dim clientSocket As Socket = New Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
-                Dim logDirPath As String = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase)
-                Dim fullPath As String = "C:\ALANSIS_PANEL\ALANAR3.prn"
-                Dim ipend As IPEndPoint = New IPEndPoint(IPAddress.Parse("10.70.10.251"), 9100)
-                clientSocket.Connect(ipend)
-                '---------------------------------------------------------------------------------------------------------------
-                System.Reflection.Assembly.GetExecutingAssembly.GetName()
-                Dim tr As TextReader = New StreamReader(fullPath)
-                Dim dosya As String = (tr.ReadToEnd)
-                dosya = dosya.Replace("@STOKKODU", "HMD01-02-0001")
-                dosya = dosya.Replace("@MUSTERI", "HAMMADDE KIRAZ") ' & "VIYOL:" & +ComboBox2.Text)
-                dosya = dosya.Replace("@TARIH", DateTime.Now)
-                dosya = dosya.Replace("@PARTINO", "")
-                dosya = dosya.Replace("@NET", net)
-                dosya = dosya.Replace("@DARA", TextBox6.Text)
-                dosya = dosya.Replace("@BRUT", TextBox4.Text)
-                dosya = dosya.Replace("@BARKOD", serinum)
-                dosya = dosya.Replace("@durum", ComboBox5.Text)
-                dosya = dosya.Replace("@SERI", ComboBox4.Text)
-                dosya = dosya.Replace("@KALINTI", ComboBox2.Text)
-                Dim fileBytes() As Byte = System.Text.Encoding.ASCII.GetBytes(dosya) 'File.ReadAllBytes("C:\10050.prn")
-                kopya = ComboBox8.Text
-                For X = 1 To kopya
-                    clientSocket.Send(fileBytes)
-                Next X
-                clientSocket.Close()
-                '------------------------------------------------------------------------------------------------
-                TextBox4.Text = "0"
-            End If
-            '===============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-            If TextBox1.Text <> "" Then
-                '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                SqlConn.Open()
-                Dim mySelectQuery1 As String = "Select* From TBLSTOKBAR Where STOK_KODU='" & TextBox9.Text & "';"
-                Dim SqlComm1 As New System.Data.SqlClient.SqlCommand(mySelectQuery1, SqlConn)
-                Dim reader1 As System.Data.SqlClient.SqlDataReader
-                reader1 = SqlComm1.ExecuteReader()
-                While reader1.Read()
-                    barkod = reader1("BARKOD").ToString()
-                End While
-                reader1.Close()
-                SqlConn.Close()
-                serinum = barkod & Format(DateTime.Today, "ddmmyy") & TextBox5.Text & TextBox4.Text
-                seri = Format(DateTime.Today, "ddmmyy") & TextBox5.Text & TextBox4.Text
-                net = CInt(TextBox4.Text) - CInt(TextBox6.Text)
-                '---------------------------------------------------------------------------------------------------------------
-                conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
-                conn1.Open()
-                cmd1.Connection = conn1
-                cmd1.CommandText = "INSERT INTO EO_ALANSIS_KIRAZ_MAMULDEPO (TARIH,STOK_KODU, SERI, MIKTAR, BOLGE,EBAT, ISLEM, KIRAZ_ISLEM, ODA, KALINTI,DARA,BRUT,DEPO,TIP,PARTINO,URETIM_TIPI,CESIT,USR,ACIKLAMA,RENK)  VALUES ('" & DateTime.Now & "','" & TextBox9.Text & "', '" & serinum & "','" & net & "', '" & ComboBox4.Text & "', '" & ComboBox5.Text & "','" & ComboBox3.Text & "'  ,'" & ComboBox7.Text & "','" & ComboBox6.Text & "','" & ComboBox1.Text & "','" & TextBox6.Text & "','" & TextBox4.Text & "','70','SULUK_MAMUL','" & TextBox1.Text & "','" & ComboBox12.Text & "','" & ComboBox11.Text & "','" & TextBox16.Text & "','" & RichTextBox1.Text & "','" & ComboBox2.Text & "')"
-
-                cmd1.ExecuteNonQuery()
-                conn1.Close()
-                '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                conn1.Open()
-                cmd10.Connection = conn1
-                cmd10.CommandText = "INSERT INTO EO_ALANSIS_MAMHARSERI (TARIH,SERI,STOK_KODU,HARAKET_TIPI,HARAKET_KODU,BELGENO,MIKTAR,BMIKTAR,GELDIGI_YER,RENK,ODA,DEPO_KODU) VALUES ('" & DateTime.Now & "', '" & serinum & "','" & TextBox9.Text & "','URETIM','G','" & TextBox1.Text & "'+'SULUK','" & net & "','" & TextBox4.Text & "','" & ComboBox4.Text & "','" & ComboBox2.Text & "','" & ComboBox6.Text & "','30')"
-                cmd10.ExecuteNonQuery()
-                conn1.Close()
-                '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                SqlConn.Open()
-                Dim mySelectQuery2 As String = "SELECT PARTINO, COUNT(ID) AS SAYI FROM EO_ALANSIS_KIRAZ_MAMULDEPO WHERE PARTINO='" & TextBox1.Text & "'GROUP BY PARTINO;"
-                Dim SqlComm2 As New System.Data.SqlClient.SqlCommand(mySelectQuery2, SqlConn)
-                Dim reader2 As System.Data.SqlClient.SqlDataReader
-                reader2 = SqlComm2.ExecuteReader()
-                While reader2.Read()
-                    Label10.Text = IIf(IsDBNull(reader2("SAYI").ToString()), "0", (reader2("SAYI").ToString()))
-                End While
-                Label12.Text = TextBox10.Text - CInt(Label10.Text)
-                reader2.Close()
-                SqlConn.Close()
-                '============================================================================================================================================================================================================================================================================================
-                conn3.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
-                SqlConn.Open()
-                Dim mySelectQuery21 As String = "SELECT STOK_ADI,MIKTAR FROM EO_ALANSIS_RECETESULUK"
-                Dim SqlComm21 As New System.Data.SqlClient.SqlCommand(mySelectQuery21, SqlConn)
-                Dim reader21 As System.Data.SqlClient.SqlDataReader
-                reader21 = SqlComm21.ExecuteReader()
-                While reader21.Read()
-                    Dim stok_adi As String
-                    Dim miktar As Decimal
-                    stok_adi = ""
-                    miktar = 0
-                    '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                    stok_adi = reader21("STOK_ADI").ToString()
-                    miktar = reader21("MIKTAR").ToString()
-                    conn3.Open()
-                    cmd1.Connection = conn3
-                    cmd1.CommandText = "INSERT INTO EO_ALANSIS_RECETETUKETIM (TARIH,PARTI,RECETE,STOK_KODU,STOK_ADI,MIKTAR) VALUES ('" & DateTime.Now & "','" & ComboBox18.Text & "', 'RECETE_SULUK','" & stok_adi & "', '" & stok_adi & "', '" & Replace(miktar, ",", ".") & "')"
-                    cmd1.ExecuteNonQuery()
-                    conn3.Close()
-                End While
-                SqlConn.Close()
-                '============================================================================================================================================================================================================================================================================================
-                '---------------------------------------------------------------------------------------------
-                Dim clientSocket As Socket = New Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
-                Dim logDirPath As String = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase)
-                Dim fullPath As String = "C:\ALANSIS_PANEL\alanar_mamul3.prn"
-                Dim ipend As IPEndPoint = New IPEndPoint(IPAddress.Parse("10.70.10.251"), 9100)
-                clientSocket.Connect(ipend)
-                '---------------------------------------------------------------------------------------------------------------
-                System.Reflection.Assembly.GetExecutingAssembly.GetName()
-                Dim tr As TextReader = New StreamReader(fullPath)
-                Dim dosya As String = (tr.ReadToEnd)
-                dosya = dosya.Replace("@STOKKODU", TextBox9.Text)
-                dosya = dosya.Replace("@MUSTERI", TextBox3.Text) ' & "VIYOL:" & +ComboBox2.Text)
-                dosya = dosya.Replace("@TARIH", DateTime.Now)
-                dosya = dosya.Replace("@PARTINO", TextBox1.Text)
-                dosya = dosya.Replace("@NET", net)
-                dosya = dosya.Replace("@DARA", TextBox6.Text)
-                dosya = dosya.Replace("@BRUT", TextBox4.Text)
-                dosya = dosya.Replace("@BARKOD", serinum)
-                dosya = dosya.Replace("@durum", ComboBox5.Text)
-                dosya = dosya.Replace("@SERI", ComboBox4.Text)
-                dosya = dosya.Replace("@KALINTI", ComboBox2.Text)
-                Dim fileBytes() As Byte = System.Text.Encoding.ASCII.GetBytes(dosya) 'File.ReadAllBytes("C:\10050.prn")
-                kopya = ComboBox8.Text
-                For X = 1 To kopya
-                    clientSocket.Send(fileBytes)
-                Next X
-                clientSocket.Close()
-                TextBox4.Text = "0"
-            End If
-        End If
-        'End If
-        '--------------------------------------------------------------------------------------------------
-        Dim cmd As New SqlCommand()
-        Dim cnn As New SqlConnection()
-        Dim da As New SqlDataAdapter()
-        Dim ds As New DataSet
-        cnn.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
-        cnn.Open()
-        cmd.Connection = cnn
-        cmd.CommandType = CommandType.Text
-        cmd.CommandText = "SELECT TIP,PARTINO,SUM(TOPLAM_NET) AS TOPLAM_NETKG,SUM(TOPLAM_BRUT) AS TOPLAM_BRUTKG FROM EO_ALANSIS_KIRAZ_PANEL1 GROUP BY PARTINO,TIP"
-        da.SelectCommand = cmd
-        da.Fill(ds)
-        DataGridView1.DataSource = ds.Tables(0).DefaultView
-        cnn.Close()
-        '------------------------------------------------------------------------------------------------------
-
-    End Sub
-
     Private Sub Button18_Click_1(sender As Object, e As EventArgs) Handles Button18.Click
         Form44.Show()
     End Sub
@@ -1784,11 +1575,15 @@ Public Class Form29
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
-        Form46.TextBox1.Text = ComboBox18.Text
-        Form46.Show()
+        Form66.ComboBox1.Text = ComboBox4.Text
+        Form66.Show()
     End Sub
 
     Private Sub Button7_Click_1(sender As Object, e As EventArgs) Handles Button7.Click
+
+    End Sub
+
+    Private Sub GroupBox5_Enter(sender As Object, e As EventArgs) Handles GroupBox5.Enter
 
     End Sub
 End Class

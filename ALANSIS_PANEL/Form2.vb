@@ -43,6 +43,7 @@ Public Class Form2
         Dim ds, ds1 As New DataSet
 
         cnn.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
+        '=================================================================================================================================================================================================================
         If TextBox1.Text = "KIVI" Then
             Try
                 cnn.Open()
@@ -75,7 +76,7 @@ Public Class Form2
                 cnn.Open()
                 cmd.Connection = cnn
                 cmd.CommandType = CommandType.Text
-                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE SON_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) ORDER BY ID DESC"
+                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE URETIM_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) ORDER BY ID DESC"
                 da1.SelectCommand = cmd
                 da1.Fill(ds1)
                 DataGridView1.DataSource = ds1.Tables(0).DefaultView

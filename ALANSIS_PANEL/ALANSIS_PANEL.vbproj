@@ -445,6 +445,12 @@
     <Compile Include="Form65.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form66.Designer.vb">
+      <DependentUpon>Form66.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form66.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form7.Designer.vb">
       <DependentUpon>Form7.vb</DependentUpon>
     </Compile>
@@ -668,6 +674,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form65.resx">
       <DependentUpon>Form65.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form66.resx">
+      <DependentUpon>Form66.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form7.resx">
       <DependentUpon>Form7.vb</DependentUpon>

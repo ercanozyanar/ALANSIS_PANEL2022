@@ -35,14 +35,15 @@ Partial Class Form29
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.ComboBox7 = New System.Windows.Forms.ComboBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -63,7 +64,6 @@ Partial Class Form29
         Me.Label10 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -199,13 +199,13 @@ Partial Class Form29
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.TextBox13)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.ComboBox2)
         Me.GroupBox1.Controls.Add(Me.ComboBox7)
         Me.GroupBox1.Controls.Add(Me.Label14)
         Me.GroupBox1.Controls.Add(Me.ComboBox4)
         Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.ComboBox3)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
@@ -215,6 +215,18 @@ Partial Class Form29
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "ÜRÜN BILGILERI"
+        '
+        'TextBox13
+        '
+        Me.TextBox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox13.Font = New System.Drawing.Font("Arial Narrow", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextBox13.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.TextBox13.Location = New System.Drawing.Point(10, 41)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(144, 29)
+        Me.TextBox13.TabIndex = 17
+        Me.TextBox13.Text = "KIRAZ"
         '
         'Label5
         '
@@ -262,30 +274,20 @@ Partial Class Form29
         Me.ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox4.Font = New System.Drawing.Font("Arial Narrow", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(225, 42)
+        Me.ComboBox4.Location = New System.Drawing.Point(160, 42)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(307, 30)
+        Me.ComboBox4.Size = New System.Drawing.Size(372, 30)
         Me.ComboBox4.TabIndex = 9
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Arial Narrow", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label7.Location = New System.Drawing.Point(221, 21)
+        Me.Label7.Location = New System.Drawing.Point(160, 21)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(60, 22)
         Me.Label7.TabIndex = 8
         Me.Label7.Text = "BOLGE"
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox3.Font = New System.Drawing.Font("Arial Narrow", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(10, 42)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(207, 30)
-        Me.ComboBox3.TabIndex = 7
         '
         'Label6
         '
@@ -296,6 +298,18 @@ Partial Class Form29
         Me.Label6.Size = New System.Drawing.Size(54, 22)
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "ISLEM"
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox3.Font = New System.Drawing.Font("Arial Narrow", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"KIRAZ"})
+        Me.ComboBox3.Location = New System.Drawing.Point(892, 109)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(50, 30)
+        Me.ComboBox3.TabIndex = 7
+        Me.ComboBox3.Visible = False
         '
         'ComboBox5
         '
@@ -357,7 +371,7 @@ Partial Class Form29
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(190, 34)
         Me.Button19.TabIndex = 41
-        Me.Button19.Text = "AKTARILAN ISLEM"
+        Me.Button19.Text = "HAMMADDE IADE"
         Me.Button19.UseVisualStyleBackColor = True
         '
         'Button2
@@ -369,6 +383,7 @@ Partial Class Form29
         Me.Button2.TabIndex = 30
         Me.Button2.Text = "YARIM URETIM YUKLE"
         Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.Visible = False
         '
         'RichTextBox1
         '
@@ -408,6 +423,7 @@ Partial Class Form29
         Me.Button7.TabIndex = 27
         Me.Button7.Text = "STOKTAN YUKLE"
         Me.Button7.UseVisualStyleBackColor = True
+        Me.Button7.Visible = False
         '
         'Button5
         '
@@ -415,7 +431,7 @@ Partial Class Form29
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(190, 34)
         Me.Button5.TabIndex = 26
-        Me.Button5.Text = "SERI KONTROL"
+        Me.Button5.Text = "HAMMADDE KONTROL"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button15
@@ -499,7 +515,6 @@ Partial Class Form29
         'GroupBox4
         '
         Me.GroupBox4.Controls.Add(Me.Button18)
-        Me.GroupBox4.Controls.Add(Me.Button11)
         Me.GroupBox4.Controls.Add(Me.Button4)
         Me.GroupBox4.Controls.Add(Me.TextBox16)
         Me.GroupBox4.Controls.Add(Me.Button1)
@@ -525,31 +540,21 @@ Partial Class Form29
         'Button18
         '
         Me.Button18.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Button18.Location = New System.Drawing.Point(535, 10)
+        Me.Button18.Location = New System.Drawing.Point(441, 10)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(66, 48)
         Me.Button18.TabIndex = 43
         Me.Button18.Text = "RÇT*"
         Me.Button18.UseVisualStyleBackColor = True
         '
-        'Button11
-        '
-        Me.Button11.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Button11.Location = New System.Drawing.Point(254, 10)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(88, 48)
-        Me.Button11.TabIndex = 42
-        Me.Button11.Text = "SULUK"
-        Me.Button11.UseVisualStyleBackColor = True
-        '
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Red
         Me.Button4.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(607, 10)
+        Me.Button4.Location = New System.Drawing.Point(513, 10)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(87, 48)
+        Me.Button4.Size = New System.Drawing.Size(118, 48)
         Me.Button4.TabIndex = 41
         Me.Button4.Text = "SIPARIS KAPAT"
         Me.Button4.UseVisualStyleBackColor = False
@@ -565,11 +570,11 @@ Partial Class Form29
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Button1.Location = New System.Drawing.Point(442, 10)
+        Me.Button1.Location = New System.Drawing.Point(348, 10)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(87, 48)
         Me.Button1.TabIndex = 9
-        Me.Button1.Text = "YARIM URETIM"
+        Me.Button1.Text = "YARIM PALET"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox11
@@ -627,7 +632,7 @@ Partial Class Form29
         'Button16
         '
         Me.Button16.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Button16.Location = New System.Drawing.Point(348, 10)
+        Me.Button16.Location = New System.Drawing.Point(254, 10)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(88, 48)
         Me.Button16.TabIndex = 6
@@ -750,9 +755,9 @@ Partial Class Form29
         Me.Label9.Font = New System.Drawing.Font("Arial Narrow", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label9.Location = New System.Drawing.Point(796, 37)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(41, 22)
+        Me.Label9.Size = New System.Drawing.Size(49, 22)
         Me.Label9.TabIndex = 27
-        Me.Label9.Text = "ODA"
+        Me.Label9.Text = "DEPO"
         '
         'ComboBox1
         '
@@ -847,6 +852,7 @@ Partial Class Form29
         Me.Controls.Add(Me.Button13)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.GroupBox4)
+        Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.TextBox3)
@@ -939,7 +945,7 @@ Partial Class Form29
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents TextBox12 As TextBox
     Friend WithEvents Button4 As Button
-    Friend WithEvents Button11 As Button
     Friend WithEvents Button18 As Button
     Friend WithEvents Button19 As Button
+    Friend WithEvents TextBox13 As TextBox
 End Class
