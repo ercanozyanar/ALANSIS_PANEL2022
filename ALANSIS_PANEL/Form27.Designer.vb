@@ -23,11 +23,11 @@ Partial Class Form27
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form27))
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.TextBox2 = New System.Windows.Forms.TextBox
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -35,7 +35,7 @@ Partial Class Form27
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(5, 15)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(106, 19)
+        Me.Label1.Size = New System.Drawing.Size(126, 24)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "KULLANICI :"
         '
@@ -44,7 +44,7 @@ Partial Class Form27
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(5, 64)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(67, 19)
+        Me.Label2.Size = New System.Drawing.Size(80, 24)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "ŞİFRE :"
         '
@@ -52,7 +52,7 @@ Partial Class Form27
         '
         Me.Button1.Location = New System.Drawing.Point(241, 57)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(61, 26)
+        Me.Button1.Size = New System.Drawing.Size(61, 34)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "OK"
         Me.Button1.UseVisualStyleBackColor = True
@@ -61,7 +61,7 @@ Partial Class Form27
         '
         Me.TextBox2.Location = New System.Drawing.Point(117, 57)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(118, 26)
+        Me.TextBox2.Size = New System.Drawing.Size(118, 30)
         Me.TextBox2.TabIndex = 4
         '
         'ComboBox1
@@ -69,12 +69,12 @@ Partial Class Form27
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(117, 12)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(185, 27)
+        Me.ComboBox1.Size = New System.Drawing.Size(185, 32)
         Me.ComboBox1.TabIndex = 5
         '
         'Form27
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(321, 103)
         Me.Controls.Add(Me.ComboBox1)

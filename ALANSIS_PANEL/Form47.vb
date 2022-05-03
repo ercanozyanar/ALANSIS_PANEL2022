@@ -14,6 +14,7 @@ Public Class Form47
     Dim SqlConn1 As New System.Data.SqlClient.SqlConnection(SqlConnStr1)
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
         '*** DARA TANIMLA
+        Form4.TextBox5.Text = "INCIR"
         Form4.Show()
     End Sub
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click

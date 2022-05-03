@@ -76,7 +76,7 @@ Public Class Form2
                 cnn.Open()
                 cmd.Connection = cnn
                 cmd.CommandType = CommandType.Text
-                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE URETIM_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) ORDER BY ID DESC"
+                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE URETIM_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) AND  DURUM NOT IN ('İptal') ORDER BY ID DESC"
                 da1.SelectCommand = cmd
                 da1.Fill(ds1)
                 DataGridView1.DataSource = ds1.Tables(0).DefaultView
@@ -103,7 +103,7 @@ Public Class Form2
                 cnn.Open()
                 cmd.Connection = cnn
                 cmd.CommandType = CommandType.Text
-                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE SON_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) ORDER BY ID DESC"
+                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE URETIM_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) AND  DURUM NOT IN ('İptal') ORDER BY ID DESC"
                 da1.SelectCommand = cmd
                 da1.Fill(ds1)
                 DataGridView1.DataSource = ds1.Tables(0).DefaultView
@@ -130,7 +130,7 @@ Public Class Form2
                 cnn.Open()
                 cmd.Connection = cnn
                 cmd.CommandType = CommandType.Text
-                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE SON_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) ORDER BY ID DESC"
+                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE URETIM_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) AND  DURUM NOT IN ('İptal') ORDER BY ID DESC"
                 da1.SelectCommand = cmd
                 da1.Fill(ds1)
                 DataGridView1.DataSource = ds1.Tables(0).DefaultView
@@ -157,7 +157,7 @@ Public Class Form2
                 cnn.Open()
                 cmd.Connection = cnn
                 cmd.CommandType = CommandType.Text
-                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE SON_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) ORDER BY ID DESC"
+                cmd.CommandText = "SELECT ID,ISEMRI,PARTI,STOK_ADI,PALET_ADET AS SIPMIKTAR,RENK AS TIP,ETA AS TESLIM_TARIHI,TESLIM_YERI AS IMPORTER FROM EO_ALANSIS_SATIS WHERE URETIM_ONAY='OK' AND (ISEMRI='0' OR ISEMRI IS NULL) AND  DURUM NOT IN ('İptal') ORDER BY ID DESC"
                 da1.SelectCommand = cmd
                 da1.Fill(ds1)
                 DataGridView1.DataSource = ds1.Tables(0).DefaultView

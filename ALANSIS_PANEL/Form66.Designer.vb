@@ -37,6 +37,8 @@ Partial Class Form66
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -50,8 +52,8 @@ Partial Class Form66
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"SARI", "YESIL", "KIRMIZI"})
-        Me.ComboBox2.Location = New System.Drawing.Point(300, 32)
+        Me.ComboBox2.Items.AddRange(New Object() {"SR - SARI", "YS - YESIL", "KR - KIRMIZI", "MV - MAVI"})
+        Me.ComboBox2.Location = New System.Drawing.Point(289, 32)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(121, 28)
         Me.ComboBox2.TabIndex = 1
@@ -78,31 +80,37 @@ Partial Class Form66
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(427, 32)
+        Me.TextBox1.Location = New System.Drawing.Point(416, 32)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(157, 25)
         Me.TextBox1.TabIndex = 4
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(239, 105)
+        Me.TextBox2.Location = New System.Drawing.Point(6, 100)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 25)
         Me.TextBox2.TabIndex = 5
+        Me.TextBox2.Text = "0"
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(123, 105)
+        Me.TextBox3.Location = New System.Drawing.Point(118, 100)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 25)
         Me.TextBox3.TabIndex = 6
+        Me.TextBox3.Text = "0"
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(6, 105)
+        Me.TextBox4.Location = New System.Drawing.Point(224, 100)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 25)
         Me.TextBox4.TabIndex = 7
+        Me.TextBox4.Text = "0"
+        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label3
         '
@@ -118,7 +126,7 @@ Partial Class Form66
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label4.Location = New System.Drawing.Point(235, 82)
+        Me.Label4.Location = New System.Drawing.Point(72, 77)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 20)
         Me.Label4.TabIndex = 11
@@ -128,7 +136,7 @@ Partial Class Form66
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label5.Location = New System.Drawing.Point(119, 82)
+        Me.Label5.Location = New System.Drawing.Point(173, 77)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 20)
         Me.Label5.TabIndex = 10
@@ -138,7 +146,7 @@ Partial Class Form66
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label6.Location = New System.Drawing.Point(2, 82)
+        Me.Label6.Location = New System.Drawing.Point(280, 77)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(44, 20)
         Me.Label6.TabIndex = 9
@@ -159,24 +167,46 @@ Partial Class Form66
         Me.TextBox5.Location = New System.Drawing.Point(6, 174)
         Me.TextBox5.Multiline = True
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(578, 86)
+        Me.TextBox5.Size = New System.Drawing.Size(567, 74)
         Me.TextBox5.TabIndex = 13
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Button1.Location = New System.Drawing.Point(448, 266)
+        Me.Button1.Location = New System.Drawing.Point(437, 263)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(136, 44)
+        Me.Button1.Size = New System.Drawing.Size(136, 47)
         Me.Button1.TabIndex = 14
         Me.Button1.Text = "IADE ETIKETI BAS"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label8.Location = New System.Drawing.Point(313, 263)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(118, 18)
+        Me.Label8.TabIndex = 16
+        Me.Label8.Text = "ETIKET KOPYA"
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"1", "2", "3", "4", "5"})
+        Me.ComboBox3.Location = New System.Drawing.Point(316, 284)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(108, 26)
+        Me.ComboBox3.TabIndex = 15
         '
         'Form66
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(590, 315)
+        Me.ClientSize = New System.Drawing.Size(577, 315)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.Label7)
@@ -217,4 +247,6 @@ Partial Class Form66
     Friend WithEvents Label7 As Label
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label8 As Label
+    Friend WithEvents ComboBox3 As ComboBox
 End Class

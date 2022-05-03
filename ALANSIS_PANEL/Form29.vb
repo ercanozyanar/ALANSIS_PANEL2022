@@ -14,6 +14,7 @@ Public Class Form29
     Dim SqlConn1 As New System.Data.SqlClient.SqlConnection(SqlConnStr1)
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
         '*** DARA TANIMLA
+        Form4.TextBox5.Text = "KIRAZ"
         Form4.Show()
     End Sub
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
@@ -78,6 +79,7 @@ Public Class Form29
         End While
         reader2.Close()
         SqlConn.Close()
+        '================================================================================================================================
         SqlConn.Open()
         Dim mySelectQuery3 As String = "SELECT* FROM EO_ALANSIS_KIRAZEBAT;"
         Dim SqlComm3 As New System.Data.SqlClient.SqlCommand(mySelectQuery3, SqlConn)
@@ -88,6 +90,7 @@ Public Class Form29
         End While
         reader3.Close()
         SqlConn.Close()
+        '================================================================================================================================
         SqlConn.Open()
         Dim mySelectQuery4 As String = "SELECT* FROM EO_ALANSIS_KIRAZKIRAZISLEM;"
         Dim SqlComm4 As New System.Data.SqlClient.SqlCommand(mySelectQuery4, SqlConn)
@@ -98,7 +101,7 @@ Public Class Form29
         End While
         reader4.Close()
         SqlConn.Close()
-        SqlConn.Close()
+        '================================================================================================================================
         SqlConn.Open()
         Dim mySelectQuery5 As String = "SELECT* FROM EO_ALANSIS_KIRAZODA;"
         Dim SqlComm5 As New System.Data.SqlClient.SqlCommand(mySelectQuery5, SqlConn)
@@ -109,7 +112,7 @@ Public Class Form29
         End While
         reader5.Close()
         SqlConn.Close()
-        '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        '================================================================================================================================
         SqlConn.Open()
         Dim mySelectQuery6 As String = "SELECT* FROM EO_ALANSIS_KIRAZCESIT;"
         Dim SqlComm6 As New System.Data.SqlClient.SqlCommand(mySelectQuery6, SqlConn)
@@ -120,7 +123,7 @@ Public Class Form29
         End While
         reader6.Close()
         SqlConn.Close()
-        '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        '================================================================================================================================
         SqlConn.Open()
         Dim mySelectQuery7 As String = "SELECT* FROM EO_ALANSIS_KIRAZURETIMTIPI;"
         Dim SqlComm7 As New System.Data.SqlClient.SqlCommand(mySelectQuery7, SqlConn)
@@ -131,7 +134,7 @@ Public Class Form29
         End While
         reader7.Close()
         SqlConn.Close()
-        '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        '================================================================================================================================
     End Sub
     Private Sub Button14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button14.Click
         On Error Resume Next
@@ -145,7 +148,7 @@ Public Class Form29
         Dim sFileName As String
         Dim barkod
         barkod = ""
-        If ComboBox1.Text = "" Or TextBox13.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
+        If ComboBox1.Text = "" Or ComboBox4.Text = "" Or ComboBox6.Text = "" Or ComboBox7.Text = "" Or ComboBox11.Text = "" Or ComboBox12.Text = "" Then
             MsgBox("BOLGE veya ODA veya KALINTI veya ISLEM veya DIGER SAHALAR girmelisiniz...")
             Exit Sub
         Else
@@ -1584,6 +1587,14 @@ Public Class Form29
     End Sub
 
     Private Sub GroupBox5_Enter(sender As Object, e As EventArgs) Handles GroupBox5.Enter
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+    End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
 
     End Sub
 End Class
